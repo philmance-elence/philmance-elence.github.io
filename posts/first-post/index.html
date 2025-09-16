@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" class="h-full">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>First Post | My New Hugo Site</title>
@@ -21,7 +21,9 @@
     
     
       
-        <link rel="stylesheet" href="/css/main.css">
+        
+          <link rel="stylesheet" href="/css/main.290c534133942b2b6168b5f6cdbfe9d2912b575b0f1e52d329e4bbc382c79cd8.css" integrity="sha256-KQxTQTOUKythaLX2zb/p0pErV1sPHlLTKeS7w4LHnNg=" crossorigin="anonymous">
+        
       
     
   
@@ -54,7 +56,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-      <script src="/js/main.js"></script>
+      <script src="/js/main.b86ee76fd11b0aa5b9ab803419695ebcbc971f8cee7c871a420d36f3851f7ab1.js" integrity="sha256-uG7nb9EbCqW5q4A0GWlevLyXH4zufIcaQg0284UferE=" crossorigin="anonymous"></script>
 
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -214,11 +216,15 @@
     </li>
     <li class="text-gray-600 hover:text-gray-900 text-base sm:text-lg">
       <a
+        class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 transition-colors" href="/categories/">Categories</a>
+    </li>
+    <li class="text-gray-600 hover:text-gray-900 text-base sm:text-lg">
+      <a
         class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 transition-colors" href="/tags/">Tags</a>
     </li>
     <li class="text-gray-600 hover:text-gray-900 text-base sm:text-lg">
       <a
-        class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 transition-colors">About</a>
+        class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 transition-colors" href="/about/">About</a>
     </li>
     </ul>
   </nav>
@@ -236,6 +242,14 @@
       <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-blue-50 to-transparent rounded-full opacity-70 -z-0 blur-2xl transform translate-x-1/4 -translate-y-1/4"></div>
       
       
+      
+      <div class="mb-3 flex">
+        
+        <a href="/categories/blog" class="text-xs inline-flex items-center px-2.5 py-1 rounded-full bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors">
+          blog
+        </a>
+        
+      </div>
       
       
       <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 relative">First Post</h1>
@@ -336,6 +350,41 @@ this is my blog!!!
   
   <div class="max-w-4xl mx-auto mt-8 bg-white rounded-lg shadow-md overflow-hidden" style="--tw-prose-body: #374151; --tw-prose-headings: #111827; --tw-prose-links: #2563eb; --tw-prose-links-hover: #1d4ed8; --tw-prose-code-bg: #f3f4f6; color: #374151; background-color: #ffffff;">
     
+
+<div id="disqus_thread_container" class="py-8 px-6 sm:px-8" 
+     data-page-url="https://philmance-elence.github.io/posts/first-post/" 
+     data-page-identifier="38114d4d9d0cd1ef39d3c152fa4e9488">
+  <div class="flex justify-center mb-6">
+    <button 
+      id="load-disqus" 
+      class="px-5 py-2.5 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-md transition-colors flex items-center shadow-sm hover:shadow transform hover:-translate-y-0.5 transition-all duration-200"
+      onclick="loadDisqus()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+      </svg>
+      Load Comments
+    </button>
+  </div>
+  <div id="disqus_thread" class="rounded-lg border border-gray-100"></div>
+  
+  <div id="disqus-loading" class="hidden py-12 text-center">
+    <div class="inline-block animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500 mb-2"></div>
+    <p class="text-gray-500 text-sm">加载评论中...</p>
+  </div>
+</div>
+
+
+<script>
+  
+  var DISQUS_SHORTNAME = 'philmance-elence-github-io';
+  
+  
+  function loadDisqus() {
+    document.getElementById('disqus-loading').classList.remove('hidden');
+    document.getElementById('load-disqus').classList.add('opacity-0');
+  }
+</script>
+<script src="/js/disqus-lazy.min.0aa5720948c5e41408df1da0c30873c5de4dfc45382f681a13ad2aeea7cfb586.js"></script>
  
   </div>
 
