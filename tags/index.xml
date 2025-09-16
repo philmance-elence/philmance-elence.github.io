@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on My blog</title>
     <link>https://philmance-elence.github.io/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on My blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Sep 2025 11:22:47 +0800</lastBuildDate>
@@ -13,13 +13,6 @@
       <link>https://philmance-elence.github.io/tags/example/</link>
       <pubDate>Mon, 15 Sep 2025 11:22:47 +0800</pubDate>
       <guid>https://philmance-elence.github.io/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://philmance-elence.github.io/tags/hugo/</link>
-      <pubDate>Mon, 15 Sep 2025 11:22:47 +0800</pubDate>
-      <guid>https://philmance-elence.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
