@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My blog</title>
-    <link>https://philmance-elence.github.io/philmance-elence.github.io/categories/</link>
+    <link>https://philmance-elence.github.io/categories/</link>
     <description>Recent content in Categories on My blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Sep 2025 11:22:47 +0800</lastBuildDate>
-    <atom:link href="https://philmance-elence.github.io/philmance-elence.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://philmance-elence.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://philmance-elence.github.io/philmance-elence.github.io/categories/blog/</link>
+      <link>https://philmance-elence.github.io/categories/blog/</link>
       <pubDate>Mon, 15 Sep 2025 11:22:47 +0800</pubDate>
-      <guid>https://philmance-elence.github.io/philmance-elence.github.io/categories/blog/</guid>
+      <guid>https://philmance-elence.github.io/categories/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Test</title>
-      <link>https://philmance-elence.github.io/philmance-elence.github.io/categories/test/</link>
+      <link>https://philmance-elence.github.io/categories/test/</link>
       <pubDate>Mon, 15 Sep 2025 11:22:47 +0800</pubDate>
-      <guid>https://philmance-elence.github.io/philmance-elence.github.io/categories/test/</guid>
+      <guid>https://philmance-elence.github.io/categories/test/</guid>
       <description></description>
     </item>
   </channel>
