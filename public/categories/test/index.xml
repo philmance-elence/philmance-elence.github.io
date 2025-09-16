@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on My blog</title>
+    <link>https://philmance-elence2.github.io/categories/test/</link>
+    <description>Recent content in Test on My blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Sep 2025 11:22:47 +0800</lastBuildDate>
+    <atom:link href="https://philmance-elence2.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://philmance-elence2.github.io/posts/first-post/</link>
+      <pubDate>Mon, 15 Sep 2025 11:22:47 +0800</pubDate>
+      <guid>https://philmance-elence2.github.io/posts/first-post/</guid>
+      <description>&lt;p&gt;wellcome!&#xA;this is my blog!!!&#xA;这是我的第一篇博客文章。&lt;br&gt;&#xA;你可以在这里写内容，例如：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;使用 Markdown 格式&lt;/li&gt;&#xA;&lt;li&gt;添加图片、代码块、列表等&lt;/li&gt;&#xA;&lt;li&gt;给文章打标签方便分类&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
